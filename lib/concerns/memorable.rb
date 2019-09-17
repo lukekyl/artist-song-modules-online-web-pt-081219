@@ -1,9 +1,9 @@
 module Memorable
    def reset_all
-    class.all.clear
+    self.all.clear
   end
 
   def count
-    class.all.count
+    self.all.count
   end
 end
